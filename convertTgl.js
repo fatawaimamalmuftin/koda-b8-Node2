@@ -1,6 +1,10 @@
 const readline = require("node:readline");
 const moment = require("moment");
 
+
+const nama = "Muftin";
+console.log(nama);
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
