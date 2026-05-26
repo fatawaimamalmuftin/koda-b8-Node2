@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "convertTgl",
   "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
     "start": "node convertTgl.js",
     "dev": "node --watch convertTgl.js",
     "lint": "eslint convertTgl.js",
-    "fix" : "eslint convertTgl.js --fix"
+    "fix": "eslint convertTgl.js --fix"
   },
   "keywords": [],
   "author": "",
